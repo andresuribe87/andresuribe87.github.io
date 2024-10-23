@@ -1,20 +1,20 @@
 {
-  "uri": "did:web:andresuribe87.github.io",
+  "uri": "did:web:andresuribe87.github.io:me",
   "document": {
-    "id": "did:web:andresuribe87.github.io",
+    "id": "did:web:andresuribe87.github.io:me",
     "@context": [
       "https://www.w3.org/ns/did/v1"
     ],
     "verificationMethod": [
       {
-        "id": "did:web:andresuribe87.github.io#key-0",
+        "id": "did:web:andresuribe87.github.io:me#key-0",
         "type": "JsonWebKey",
-        "controller": "did:web:andresuribe87.github.io",
+        "controller": "did:web:andresuribe87.github.io:me",
         "publicKeyJwk": {
           "alg": "Ed25519",
           "kty": "OKP",
           "crv": "Ed25519",
-          "x": "_bTyoMJs8EH6NZCJTjPvFujUu30ewtSmonRUDqhesxg"
+          "x": "gH6SYku1Y3zYDqiskukFLywGjCYpkWd60zf4phUXOP4"
         }
       }
     ],
@@ -33,8 +33,8 @@
       "alg": "Ed25519",
       "kty": "OKP",
       "crv": "Ed25519",
-      "d": "-VoTi6FUQXKRgP17l4nT1gYisuc8xCFCgTjrRNRdLUU",
-      "x": "_bTyoMJs8EH6NZCJTjPvFujUu30ewtSmonRUDqhesxg"
+      "d": "_wgk3bTgSkuQARktN86H2kB5cLPMmmM-GCselM--B8s",
+      "x": "gH6SYku1Y3zYDqiskukFLywGjCYpkWd60zf4phUXOP4"
     }
   ]
 }
