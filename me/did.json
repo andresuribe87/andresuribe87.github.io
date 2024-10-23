@@ -1,6 +1,4 @@
 {
-  "uri": "did:web:andresuribe87.github.io:me",
-  "document": {
     "id": "did:web:andresuribe87.github.io:me",
     "@context": [
       "https://www.w3.org/ns/did/v1"
@@ -14,7 +12,7 @@
           "alg": "Ed25519",
           "kty": "OKP",
           "crv": "Ed25519",
-          "x": "gH6SYku1Y3zYDqiskukFLywGjCYpkWd60zf4phUXOP4"
+          "x": "DIswHPQScoM5Wi5hakp83jLZWt2O4MkI4yaOYy_4Ero"
         }
       }
     ],
@@ -27,14 +25,4 @@
         ]
       }
     ]
-  },
-  "privateKeys": [
-    {
-      "alg": "Ed25519",
-      "kty": "OKP",
-      "crv": "Ed25519",
-      "d": "_wgk3bTgSkuQARktN86H2kB5cLPMmmM-GCselM--B8s",
-      "x": "gH6SYku1Y3zYDqiskukFLywGjCYpkWd60zf4phUXOP4"
-    }
-  ]
-}
+  }
