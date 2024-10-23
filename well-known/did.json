@@ -1,0 +1,40 @@
+{
+  "uri": "did:web:andresuribe87.github.io",
+  "document": {
+    "id": "did:web:andresuribe87.github.io",
+    "@context": [
+      "https://www.w3.org/ns/did/v1"
+    ],
+    "verificationMethod": [
+      {
+        "id": "did:web:andresuribe87.github.io#key-0",
+        "type": "JsonWebKey",
+        "controller": "did:web:andresuribe87.github.io",
+        "publicKeyJwk": {
+          "alg": "Ed25519",
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "_bTyoMJs8EH6NZCJTjPvFujUu30ewtSmonRUDqhesxg"
+        }
+      }
+    ],
+    "service": [
+      {
+        "id": "did:web:andresuribe87.github.io#service-1",
+        "type": "PFI",
+        "serviceEndpoint": [
+          "http://localhost:8082"
+        ]
+      }
+    ]
+  },
+  "privateKeys": [
+    {
+      "alg": "Ed25519",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "d": "-VoTi6FUQXKRgP17l4nT1gYisuc8xCFCgTjrRNRdLUU",
+      "x": "_bTyoMJs8EH6NZCJTjPvFujUu30ewtSmonRUDqhesxg"
+    }
+  ]
+}
